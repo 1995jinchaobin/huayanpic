@@ -31,7 +31,7 @@
             </el-table-column>
             <el-table-column align="center" :show-overflow-tooltip="true" prop="name" label="面料名称">
             </el-table-column>
-            <el-table-column align="center" :show-overflow-tooltip="true" prop="num1" label="半漂仓数量">
+            <!-- <el-table-column align="center" :show-overflow-tooltip="true" prop="num1" label="半漂仓数量">
               <template slot-scope="scope">
                 <span v-if="scope.row.num1 > scope.row.threshold">{{scope.row.num1}}</span>
                 <span v-else style="color: red;">{{scope.row.num1 + '(已低于警报阀值！)'}}</span>
@@ -40,7 +40,7 @@
             <el-table-column align="center" :show-overflow-tooltip="true" prop="num2" label="上浆仓数量">
             </el-table-column>
             <el-table-column align="center" :show-overflow-tooltip="true" prop="num3" label="成品仓数量">
-            </el-table-column>
+            </el-table-column> -->
             <el-table-column align="center" :show-overflow-tooltip="true" prop="note" label="备注">
             </el-table-column>
             <el-table-column align="center" label="操作" width="400px" fixed="right">
@@ -85,15 +85,15 @@
                   </el-form-item>
                 </el-form>
               </el-col>
-              <el-col :span="12">
+              <!-- <el-col :span="12">
                 <el-form label-width="100px">
                   <el-form-item label="半漂仓数量:">
                     <label>{{detailInfo.num1}}</label>
                   </el-form-item>
                 </el-form>
-              </el-col>
+              </el-col> -->
             </el-row>
-            <el-row>
+            <!-- <el-row>
               <el-col :span="11" :offset="1">
                 <el-form label-width="100px">
                   <el-form-item label="上浆仓数量:">
@@ -108,7 +108,7 @@
                   </el-form-item>
                 </el-form>
               </el-col>
-            </el-row>
+            </el-row> -->
             <el-row>
               <el-col :span="11" :offset="1">
                 <el-form label-width="100px">

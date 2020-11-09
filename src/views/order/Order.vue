@@ -223,7 +223,7 @@ export default {
       flowerPath:'',
       fileSize:20,
       // requestUrl:'http://192.168.0.104:9999',
-      // requestUrl:'http://192.168.1.1:9999',//测试
+      // requestUrl:'http://192.168.1.115:9999',//测试
       requestUrl:'https://www.yinhuachaoshi.com/order',//线上
       again:false,
       //0不加急1加急
